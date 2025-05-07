@@ -67,7 +67,7 @@ export const Footer = () => {
 
       <div className='fixed bottom-4 right-4'>
         <button
-          className='bg-black/80 p-3 rounded text-white hover:bg-black'
+          className='bg-black/90 p-3 rounded text-white opacity-80 hover:bg-black/75 cursor-pointer'
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <ArrowUp />
