@@ -4,7 +4,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 
 export const GemmaMain = () => {
   return (
-    <div className='relative w-full'>
+    <div className='relative w-full h-full overflow-hidden'>
       {/* Imagen de fondo */}
       <img
         className='w-full h-auto object-cover'
@@ -16,7 +16,7 @@ export const GemmaMain = () => {
       <div className='absolute inset-0 bg-black/25'></div>
 
       {/* Imagen del título por encima */}
-      <div className='flex flex-col items-start justify-start absolute bottom-[25%] left-[10%] animate-fade-right animate-duration-1000 animate-ease-in-out'>
+      <div className='flex flex-col items-start justify-start absolute bottom-[15%] left-[10%] animate-fade-right animate-duration-1000 animate-ease-in-out'>
         <img
           // className="absolute bottom-[25%] left-[15%] w-[250px] md:w-[400px] lg:w-[450px] animate-in slide-in-from-left fade-in duration-1000"
           className=' w-[250px] md:w-[400px] lg:w-[450px] '

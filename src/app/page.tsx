@@ -31,11 +31,11 @@ export default function Home() {
     }
   ]
   return (
-    <main>
+    <>
       <SliderHome />
       <FeaturedProducts />
       <TechHighlights />
       <Reasons reasonsTexts={reasonsTexts} />
-    </main>
+    </>
   )
 }

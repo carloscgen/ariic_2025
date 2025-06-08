@@ -4,7 +4,7 @@ import { Reasons } from '@/components/home/reasons/Reasons'
 import { LookbookGrid } from '@/components/LookbookGrid'
 import { PromoSection } from '@/components/PromoSection'
 
-export default function Gemma() {
+export default function Bike318() {
   const reasonsTexts = [
     {
       title: 'Unmatched performance',

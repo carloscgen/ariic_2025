@@ -12,52 +12,55 @@ export const Footer = () => {
   return (
     <footer className='bg-[#2a2f35] text-white px-10 py-14 text-sm'>
       <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left'>
-        <div className='flex-1 space-y-2'>
-          <p>Call Us: +86 576-82899389</p>
-          <p>
-            Address: No.1111, Jinlin Road, Jinqing Town, Luqiao District,
-            Taizhou City, Zhejiang Province, China
-          </p>
-        </div>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-8 w-full'>
+          <div className='flex-1 space-y-2'>
+            <p className='font-semibold text-lg'>Call Us: +86 576-82899389</p>
+            <p>
+              Address: No.1111, Jinlin Road, Jinqing Town, Luqiao District,
+              Taizhou City, Zhejiang Province, China
+            </p>
+          </div>
 
-        <div className='flex-1 space-y-2'>
-          <p>Send an Email: larry@ariic-scooter.com</p>
-          <p>
-            Copyright: Jinlang Science And Technology 2023. All rights reserved.
-          </p>
-          <p>
-            Vehicle specifications are subject to change without notice. ARIIC
-            reserves the right to make improvements and design changes without
-            any obligation to modify previously sold, assembled, or fabricated
-            equipment.
-          </p>
-        </div>
+          <div className='flex-1 space-y-2'>
+            <p className='font-semibold text-lg'>Send an Email: larry@ariic-scooter.com</p>
+            <p>
+              Copyright: Jinlang Science And Technology 2023. All rights reserved.
+            </p>
+            <p>
+              Vehicle specifications are subject to change without notice. ARIIC
+              reserves the right to make improvements and design changes without
+              any obligation to modify previously sold, assembled, or fabricated
+              equipment.
+            </p>
+          </div>
 
-        <div className='flex items-center gap-4'>
-          <a
-            href='#'
-            className='bg-gradient-to-r from-purple-600 to-pink-600 p-3 rounded-full hover:animate-jump'
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href='#'
-            className='bg-[#1877f2] p-3 rounded-full hover:animate-jump'
-          >
-            <FaFacebookF />
-          </a>
-          <a
-            href='#'
-            className='bg-[#0a66c2] p-3 rounded-full hover:animate-jump'
-          >
-            <FaLinkedinIn />
-          </a>
-          <a
-            href='#'
-            className='bg-[#ff0000] p-3 rounded-full hover:animate-jump'
-          >
-            <FaYoutube />
-          </a>
+          <div className='flex items-center justify-center gap-4'>
+            <a
+              href='#'
+              className='bg-gradient-to-r from-purple-600 to-pink-600 p-3 rounded-full hover:animate-jump'
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href='#'
+              className='bg-[#1877f2] p-3 rounded-full hover:animate-jump'
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href='#'
+              className='bg-[#0a66c2] p-3 rounded-full hover:animate-jump'
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href='#'
+              className='bg-[#ff0000] p-3 rounded-full hover:animate-jump'
+            >
+              <FaYoutube />
+            </a>
+          </div>
+
         </div>
       </div>
 
